@@ -4,7 +4,7 @@ def calculate(n: float) -> float:
     """Returns the square of a number."""
     return n * n  # Multiply the number by itself to get the square
 
-def display_welcome() -> None:
+def display_welcome() -> None: 
     """Display welcome message and instructions."""
     print("=" * 40)  # Print a decorative line of 40 equal signs
     print("    SQUARE CALCULATOR")  # Print the title with spacing for centering
@@ -13,7 +13,7 @@ def display_welcome() -> None:
     print("Type 'q' to quit.")  # Display quit instruction
     print("-" * 40)  # Print a separator line of 40 dashes
 
-def main() -> None:
+def main() -> None:  # Main function to run the calculator
     """Main loop for user interaction."""
     display_welcome()  # Call function to show welcome message and instructions
     
